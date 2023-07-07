@@ -115,7 +115,7 @@ const MailSender = () => {
     async function handleSend(val){
       let token=localStorage.getItem("token");
       if(emails.length||setcc.length||setbcc.length){
-        let response=await fetch(`https://your-mailer-backend.vercel.app/api/user/mail`,{
+        let response=await fetch(`https://your-mailer-backend.onrender.com/api/user/mail`,{
         method:"POST",
         body:JSON.stringify({data:val}),
         headers:{
