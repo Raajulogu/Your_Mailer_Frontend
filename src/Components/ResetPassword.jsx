@@ -163,7 +163,7 @@ function NewPassword({user,setUser}){
           email:user,
           password:values.password
         }
-        let response=await fetch(`https://your-mailer-backend.vercel.app/api/user/reset`,{
+        let response=await fetch(`https://your-mailer-backend.onrender.com/api/user/reset`,{
         method:"PUT",
         body:JSON.stringify(obj),
         headers:{
