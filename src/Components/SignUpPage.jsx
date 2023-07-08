@@ -34,7 +34,7 @@ const SignUpPage = () => {
   //handle SignUp
   async function handleSignUp(user){
     
-    let response=await fetch(`https://your-mailer-backend.vercel.app/api/user/signup`,{
+    let response=await fetch(`https://your-mailer-backend.onrender.com/api/user/signup`,{
       method:"POST",
       body:JSON.stringify(user),
       headers:{
