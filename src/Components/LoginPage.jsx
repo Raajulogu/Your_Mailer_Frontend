@@ -28,7 +28,7 @@ const LoginPage = () => {
   //handle LogIn
   async function handleLogin(user){
     
-    let response=await fetch(`https://your-mailer-backend.vercel.app/api/user/login`,{
+    let response=await fetch(`https://your-mailer-backend.onrender.com/api/user/login`,{
       method:"POST",
       body:JSON.stringify(user),
       headers:{
