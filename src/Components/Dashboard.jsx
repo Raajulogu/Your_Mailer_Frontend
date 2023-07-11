@@ -20,6 +20,9 @@ const Dashboard = () => {
               <li>For <b>Subject and Message</b> you should maually enter the subject
               and message.You can also send a mail without subject and message
               </li>
+              <li>You can also use <b>Delay</b> for delay your mail.Delay value should 
+                be in seconds.
+              </li>
             </ol>
             </div>
           </div>
