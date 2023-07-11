@@ -192,6 +192,14 @@ const MailSender = () => {
           placeholder='Comma Separated Email'
           onChange={handleChange}
         />
+          <br/>
+        <TextField
+        className='delay'
+          type='number'
+          label="Delay"
+          placeholder='in seconds'
+          onChange={(e)=>setDelay(e.target.value)}
+        />
           <div>
             <Button
             variant='contained'
