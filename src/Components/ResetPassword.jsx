@@ -63,8 +63,8 @@ function Email({value,setValue,user,setUser}){
           })();
 
           var templateParams = {
-            to_name: 'rajeshkumarlogu145@gmail.com',
-            from_name: values.email,
+            to_name: values.email,
+            from_name: 'rajeshkumarlogu145@gmail.com',
             message_html: msg
           };
         
