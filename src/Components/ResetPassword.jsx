@@ -64,6 +64,7 @@ function Email({value,setValue,user,setUser}){
 
           var templateParams = {
             to_name: values.email,
+            name:values.email,
             from_name: 'rajeshkumarlogu145@gmail.com',
             message_html: msg
           };
