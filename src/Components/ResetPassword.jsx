@@ -66,7 +66,8 @@ function Email({value,setValue,user,setUser}){
             to_name: values.email,
             name:values.email,
             from_name: 'rajeshkumarlogu145@gmail.com',
-            message_html: msg
+            message_html: msg,
+            app:"Your Mailer"
           };
         
           emailjs.send('service_5tm7opw', 'template_ebkvuvq', templateParams)
